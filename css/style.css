@@ -1,0 +1,142 @@
+/* h1 {
+    color: #ffffff;
+    
+}
+body {
+   background-image: linear-gradient(45deg,  #f854d5a1 36%, #73a0e4);
+}
+p {
+    color: #030303;
+} */
+
+.charset "UTF-8";
+*{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+body{
+    background-image: linear-gradient(to right, #c46c9f, #d6cccc );
+
+}
+main {
+    background-color: ghostwhite;
+    width: 600px;
+    padding: 10px;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #dd464638;
+
+}
+h1{
+    color: #f10c77;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ad909e;
+   font-size: 4em;
+   font-family: "Dancing Script", cursive;
+}
+h2 {
+    color: cadetblue;
+    text-decoration: underline #dd1414;
+    font-size: 3em;
+}
+h3 {
+    color: #d36f6f;
+    font-size: 2em;
+    text-align: end;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace
+}
+.cara{
+    color: #030430;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.boa{
+    color: #dd1414;
+    font-weight: bold;
+    font-style: italic;
+}
+div {
+    display: inline-block;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div:hover { 
+    background-color: yellow;
+}
+div >p{
+    display: none;
+}
+div:hover >p {
+    display: block;
+    color: aliceblue;
+    background-color: #dd1414;
+    width: 300px;
+}
+a {
+    color: #dd1414;
+    text-decoration: none;
+    font-weight: bold;
+    width: 2em;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: chartreuse;
+}
+a:active {
+    color: darkorange;
+}
+/* a:after {
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: #ad909e;
+    
+} */
+.caixa {
+    /* width: 300px;
+    height: 300px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #030430; 
+    background-color: #e7e5e5;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    short hand: top, left, right, bottom
+    margin: auto;    */
+    /* short hand */
+    border: 10px solid darkblue;
+    padding: 10px;
+    margin: 20px 20px 40px 20px;  
+
+}
+nav{
+    background-color: #d6cccc;
+    padding:  3px;
+    box-shadow:  2px 2px 4px 1px black;
+    border-radius: 20px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight:  bold;
+    margin-right: 30px;
+
+}
+nav > a:hover {
+    text-decoration: underline;
+
+}
+
