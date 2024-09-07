@@ -4,17 +4,14 @@ body{
 td{
     border: 1px solid black;
     padding: 8px;
+     text-align: center; /*alinhamento horizontal */
+    vertical-align: middle ; /*alinhamento vertical */
 }
 table{
     width: 400px;
+    height: 400px;
     border-collapse: collapse;
 }
-tr{
-    background-color: #7f7e81;
-}
-.dado{
-    background-color: aquamarine;
-}
-.linha1{
-    background-color: chartreuse;
+.numero {
+    text-align: right;
 }
