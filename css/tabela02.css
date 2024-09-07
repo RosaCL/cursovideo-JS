@@ -25,3 +25,9 @@ caption{
 tbody> tr:nth-child(2n){
     background-color: rgb(235, 234, 234);
 }
+thead > tr> th{
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    /* deixa o thead ao rolar fica fixo */
+}
