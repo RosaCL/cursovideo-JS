@@ -11,6 +11,9 @@
 <body>
     <h1>Usando tabelas grande</h1>
     <!-- anatomia de uma tabela grande
+            Caption - pode ser colocado tasnto no inicio ou no fim ele sempre ir para o inicio da tabela
+            th é titulo de coluna
+            td é dados
             TABLE                
             THEAD
                 TR, TD, TH
@@ -21,18 +24,19 @@
         
         -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
 
             </tr>
 
         </thead>
         <tfoot>
             <tr>
-                <td> Total de habitantes</td>
-                <td>00000</td>
+                <th scope="row"> Total de habitantes</td>
+                <td class="num">00000</td>
             </tr>
 
         </tfoot>

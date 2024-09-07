@@ -16,3 +16,12 @@ thead, tfoot {
 .pop {
     text-align: right;
 }
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f3f0f0;
+}
+tbody> tr:nth-child(2n){
+    background-color: rgb(235, 234, 234);
+}
