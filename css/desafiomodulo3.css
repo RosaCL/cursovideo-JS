@@ -17,3 +17,12 @@ caption{
     position: sticky;
     background-color: aquamarine;
 }
+.cnome{
+    background-color: chartreuse;
+}
+.csexo, .cidade{
+    background-color: aqua;
+}
+.cprofissao{
+    background-color: rgb(231, 192, 200);
+}
