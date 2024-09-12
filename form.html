@@ -24,6 +24,33 @@
             <input type="reset" value="Limpar">
         </p>
     </form>
-    
+
+
+    <section class="notao"></section>
+        <h1>Média</h1>
+        <form action="cadastro.php" method="post" autocomplete="on"></form>
+            <p><label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="30" maxlength="50" placeholder="Nome Completo" autocomplete="name">
+            </p>
+        
+                <p>
+                    <label for="imedia">Média:</label>
+                    <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1">
+                
+                </p>
+                <p>
+                    <label for="idia">Dia</label>
+                    <input type="date" name="dia" id="idia">
+                </p>
+                <p>
+                    <label for="imes">Periódo letivo</label>
+                    <input type="month" name="mes" id="imes">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>        
+        </form>
+    </section>
 </body>
 </html>
