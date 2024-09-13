@@ -126,14 +126,54 @@
                 </p>
                 <label for="ifoto">Foto do perfil:</label>
                 <input type="file" name="foto" id="ifoto">
+                <!-- para enviar arquivo deve se utilizar metodo post -->
                 <p>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
-                    <!-- para enviar arquivo deve se utilizar metodo post -->
+                    
                 </p>
                 
             </fieldset>
         </form>
+    </section>
+    <section id="form07">
+        <h1>Select, datalist e textarea em HTML</h1>
+        <fieldset>
+            <p>
+                <label for="iest">Estado</label>
+                <select name="estado" id="iest">
+                    <optgroup label="Nordeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="PE">Pernanbuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="MA">Maranhão</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                        <option value="SP"> São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG"> Minas Gerais</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option>Administrador</option>
+                    <option>Desenvolvedor</option>
+                    <option>Atriz</option>
+                </datalist>
+            </p>
+             <p>
+                 <label for="imsg">Mensagem:</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+             </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+           
+        </fieldset>
     </section>
 </body>
 </html>
