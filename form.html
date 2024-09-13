@@ -7,35 +7,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
-    <title>Senha Usuário</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
-        <p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome"></p>
-        <p><label for="sobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
-    </form>
+    <section id="form01">
+        <h1>Meu primeiro formulário</h1>
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome"></p>
+            <p><label for="sobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="sobrenome"></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+    </section>
     
-    <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="on">
-        <fieldset>
-            <p><label for="iusu">Usuário:</label>
-            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Nome do usuário" autocomplete="name">
-            </p>
+    <section id="form02">
+        <h1>Teste de formulário</h1>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <p><label for="iusu">Usuário:</label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Nome do usuário" autocomplete="name">
+                </p>
+                <p>
+                    <label for="isen">Senha:</label>
+                    <input type="password" name="sen" id="isen" required minlength="8" placeholder="Minimo 8 letras" autocomplete="current-password">
+                </p>
+            </fieldset>
             <p>
-                <label for="isen">Senha:</label>
-                <input type="password" name="sen" id="isen" required minlength="8" placeholder="Minimo 8 letras" autocomplete="current-password">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
             </p>
-        </fieldset>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
-    </form>
+        </form>
+    </section>
 
 
-    <section class="notao"></section>
+    <section class="form03"></section>
         <h1>Média</h1>
         <form action="cadastro.php" method="post" autocomplete="on"></form>
             <fieldset>
@@ -66,7 +70,7 @@
                 </p>        
         </form>
     </section>
-    <section id="fonemail">
+    <section id="form04">
         <h1>Email - Telefone</h1>
         <form action="cadastro.php" method="get" autocomplete="on">
             <fieldset>
@@ -85,7 +89,7 @@
             </p>
         </form>
     </section>
-    <section>
+    <section id="form05">
         <h1>Checkbox - Rádio</h1>
       <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
@@ -107,13 +111,26 @@
         </p>
       </form>
     </section>
-    <section>
+    <section id="form06">
         <h1>Elementos color, range e file em HTML</h1>
-        <form action="cadastro.php" method="get" autocomplete="on">
+        <form action="cadastro.php" method="post" autocomplete="on">
             <fieldset>
-                <legend>
-
-                </legend>
+                
+                <p>
+                    <label for="icor">Cor:</label>
+                    <input type="color" name="cor" id="icor">
+                </p>
+                <p>
+                    <label for="inivel">Nível:</label>
+                    <input type="range" name="nivel" id="inivel" min="1" max="10">
+                </p>
+                <label for="ifoto">Foto do perfil:</label>
+                <input type="file" name="foto" id="ifoto">
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                    <!-- para enviar arquivo deve se utilizar metodo post -->
+                </p>
                 
             </fieldset>
         </form>
