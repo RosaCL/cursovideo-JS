@@ -56,5 +56,23 @@
                 </p>        
         </form>
     </section>
+    <section id="fonemail">
+        <h1>Email - Telefone</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="e-mail">
+            </p>
+            <p></p>
+                <label for="fone">Telefone:</label>
+                <input type="tel" name="tel" id="ifone" required autocomplete="tel-national" pattern="^[0-9] {4}-[0-9]{4}$" placeholder="telefone">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+
+    </section>
 </body>
 </html>
