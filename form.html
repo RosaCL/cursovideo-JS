@@ -77,7 +77,28 @@
                 <input type="reset" value="Limpar">
             </p>
         </form>
-
+    </section>
+    <section>
+        <h1>Checkbox - Rádio</h1>
+      <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <label for="ifut"><input type="checkbox" name="Futebol" id="ifut">Futebol<br></label>
+            <label for="ibaq"><input type="checkbox" name="Basquete" id="ibaq">Basquete<br></label>
+            <label for="ivol"><input type="checkbox" name="Volei" id="ivol">Volei<br></label>
+            <label for="ibox"><input type="checkbox" name="Boxe" id="ibox">Boxe<br></label>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo:</legend>
+            <input type="radio" name="sx" id="sxmas" checked><label for="sxmas">Maaculino</label><br>
+            <input type="radio" name="sx" id="sxfem" checked><label for="sxfem">Feminino</label><br>
+            <!-- Mesmo name no radio evita que possa marcar duas opções -->
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+      </form>
     </section>
 </body>
 </html>
