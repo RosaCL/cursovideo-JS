@@ -25,7 +25,7 @@ body, html{
     color: black;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu, ul{
     list-style-type: none;
@@ -34,10 +34,10 @@ menu, a{
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(60, 14, 102);
+    background-color: rgb(23, 2, 43);
     text-align: center;
     color: aliceblue;
-    border-top: 2px solid rgb(118, 77, 156) ;
+    border-top: 2px solid rgb(58, 12, 102) ;
 }
 menu a:hover{
     background-color: rgb(177, 126, 202);

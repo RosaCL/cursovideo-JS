@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/menuresponsivo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/menuresp.css">
     <title>Menu responsivo</title>
     
 </head>
-<body>
+<body onresize="mudoutamanho">
     <header>
         <h1>Meu site</h1>
-        <span id="burguer" class="material-symbols-outlined">
+        <span onclick="clickmenu" id="burguer" class="material-symbols-outlined">
             menu
             </span>
-        <menu>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -36,4 +37,5 @@
     </main>
     
 </body>
+<script src="munu.js"></script>
 </html>
