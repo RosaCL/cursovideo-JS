@@ -1,17 +1,9 @@
 .container{
     background-color: salmon;
     display: flex;    
-    flex-direction: column-reverse;
+    flex-flow: row nowrap;
 }
-/* o pai no caso o container é que recebe as configurações
-flex-direction: row (linha) - é esquerda para direita
-row-reverse - direita para esquerda
-flex-direction column (coluna) - de cima para baixo
-column-reverse - debaixo para cima
-Eixos: 
-Principal (main-axis) main-start, main-end. Row reverse muda para direita para esquerda.
- eixo transversal(cross axis) cross-start, cross-end. No row reverse não muda.
-*/
+
 .item{
     background-color: lightskyblue;
     border: 1px solid black;
