@@ -11,3 +11,8 @@
     text-align: center;
     padding: 10px;
 }
+#alinhamento > .container{
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
