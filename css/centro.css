@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: deeppink;
+}
+main{
+    background-color: lightgreen;
+    height: 90vw;
+    width: 90vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: lightcoral;
+    height: 200px;
+    width: 200px;
+}
