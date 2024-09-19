@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: deeppink;
+    background-color: rgb(216, 159, 189);
 }
 main{
     background-color: lightgreen;
@@ -15,8 +15,28 @@ main{
     justify-content: center;
     align-items: center;
 }
-section{
+#centro{
     background-color: lightcoral;
     height: 200px;
     width: 200px;
+}
+#conteudo-empacotado{
+    .container{
+        background-color: salmon;
+        
+        display: flex;    
+        flex-flow: row wrap;
+        height: 400px;
+        align-content: stretch;
+        
+    }
+    
+.item{
+        background-color: lightskyblue;
+        border: 1px solid black;
+        text-align: center;
+        padding: 40px;
+    }
+
+
 }
