@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - order</title>
+    <style>
+        
+       .container{
+            background-color: aquamarine;
+            display: flex;
+            flex-flow: row wrap;
+            height: 400px;
+        }
+            .item{
+            background-color: #dd90b4;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+        #ia1{
+            align-self: ;
+
+        }
+        #ia2{
+            align-self: auto;
+
+        }
+        #ia3{
+            align-self: flex-end ;
+
+        }
+        #ia4{
+            align-self: ;
+
+        }
+        #ia5{
+            align-self: center;
+
+        }
+        #ia6{
+           align-self: self-start;
+
+        }
+        #ia7{
+            align-self: stretch ;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+  
+    <div class="container" id="align-self">
+        
+        <div class="item" id="ia1">A</div>
+        <div class="item" id="ia2">B</div>
+        <div class="item" id="ia3">C</div>
+        <div class="item" id="ia4">D</div>
+        <div class="item" id="ia5">E</div>
+        <div class="item" id="ia6">F</div>
+        <div class="item" id="ia7">G</div>
+
+    </div>
+    
+</body>
+</html>
