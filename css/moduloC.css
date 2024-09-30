@@ -3,3 +3,17 @@ body{
     color: aliceblue;
     font-style: normal 1px Arial;
 }
+#area{
+    font: normal 20pt arial;
+    background: rgb(116, 173, 116);
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+
+}
+#res{
+    margin-top: 20px;
+    font-size: 2em;
+}
