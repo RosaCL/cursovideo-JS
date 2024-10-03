@@ -18,6 +18,7 @@ function calcular(){
     var vel = Number(txtv.value)
     res.innerHTML = `<p>sua velocidade atual é ${vel} km/h</p>`
     if (vel>60) {
+        
         res.innerHTML+= `<p>Você está multado por excesso de velocidade</p>`
 
     }
