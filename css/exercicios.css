@@ -9,6 +9,7 @@ body{
 header{
 
     color: white;
+    font-size: 4em;
     text-align: center;
 }
 section{
@@ -17,13 +18,16 @@ section{
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
-    
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);    
+}
+div{
+    text-align: center;
+    padding: 8px;
+    font-size: 4em;
 }
 footer{
     color: white;
     text-align: center;
-    font-style: italic;
+    font-style: italic;    
 
 }
