@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="./css/exercicio2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main>
+        <section>
+        <div>
+            <p>Ano de nascimento:
+            <input type="number" name="txtano" id="txtano" min="0">
+        </p>
+        <p> Sexo:
+            <input type="radio" name="radisex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radisex" id="fem" checked>
+            <label for="fem">Feminino</label>
+            
+        </p>
+        <p><input type="button" value="Verificar" onclick="idade()"></p>
+
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado</p>
+
+    </div>
+        </section>
+        <footer>
+            <p>&copy;Costureza TI</p>
+        </footer>
+    </main>
+    
+</body>
+<script src="./js/exercicio2.js"></script>
+</html>

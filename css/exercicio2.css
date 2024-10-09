@@ -1,16 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Gugi", sans-serif;
 }
 body{
-    background-color: #d60eb585;
-    font-family:  "Caveat", cursive;;
+    background-color: rgb(50, 160, 123);
 }
 header{
 
     color: white;
     text-shadow: 2px 2px 2px #110202b7;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
 }
 section{
@@ -24,11 +24,10 @@ section{
 div{
     text-align: center;
     padding: 8px;
-    font-size: 4em;
+    
 }
 footer{
     color: white;
-    text-align: center;
-    font-style: italic;    
+    text-align: center;      
 
 }
