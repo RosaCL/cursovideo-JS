@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background: rgba(255, 0, 0, 0.253);
+}
+
+#contei{
+    background: white;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    color: beige;
+    text-shadow: 2px 2px 2px black;
+}
