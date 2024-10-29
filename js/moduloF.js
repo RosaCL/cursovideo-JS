@@ -1,6 +1,6 @@
-let num=document.getElementById(fnum)
-let lista=document.getElementById(flista)
-let res=document.getElementById(res)
+let num=document.getElementById('fnum')
+let lista=document.getElementById('flista')
+let res=document.getElementById('res')
 let valores=[]
 
 function isNumero(n){
@@ -22,8 +22,8 @@ function inLista(n,l){
 
 
 
-function adicionar(){
-    if(isNumero(num.value)&& !inLista(num.value, valores)){
+function add(){
+    if(isNumero(num.value) && !inLista(num.value, valores)){
         window.alert('Tudo OK')
 
     }else{
