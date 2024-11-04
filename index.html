@@ -34,7 +34,26 @@
     </p>
     <p id="texto"></p>
     <p>
+        Quando se coloca aspas duplas ou simples algum número considera-se texto, sem aspas é número.
+        variaveis: var, let e const. Onde armazena informações.
+        Declaração de variaveis-> var a,b,c;
+        Atribuição de valores -> a=2, b=3, c=a+b
+        var pode reatribuir valores. se o a=5 logo depois, sera lido a como 5.
+        JS é case-sensitive, faz diferença entre letras maíusculas e minúsculas, não se pode usar hífen para separar variáveis.
+        ex: var nome, sobrenome, nomeCompleto;
+        nome= "Rosa";
+        sobrenome = "Chagas"
+        nomeCompleto=nome+ " "+sobrenome;
+        document.getElementById("texto").innerHTML=nomeCompleto;
+        Não é recomendavel contatenar string com number. O correto é fazer separado.
+
+        let tornar a variavel única, não pode ser redeclarada. 
+        ex. let pessoa=maria
+        let pessoa=Rosa
+        dará erro quando for solicitada.
         
+        const siginifca constante nunca pode mudar.
+
     </p>
 </body>
 <script src="./js/index.js"></script>

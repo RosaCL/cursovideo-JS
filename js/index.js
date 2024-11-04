@@ -12,3 +12,9 @@ function minhafuncao(){
     document.write(5+5);
 
 }
+
+var nome, sobrenome, nomeCompleto;
+nome= "Rosa";
+sobrenome = "Chagas"
+nomeCompleto=nome+ " "+sobrenome;
+document.getElementById("texto").innerHTML=nomeCompleto;
