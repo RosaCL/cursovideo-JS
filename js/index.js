@@ -19,8 +19,19 @@
 // nomeCompleto=nome+ " "+sobrenome;
 // document.getElementById("texto").innerHTML=nomeCompleto;
 
-var valor1,valor2,total;
-valor1=5;
-valor2=2;
-total=--valor1;
-alert (total);
+// var valor1,valor2,total;
+// valor1=5;
+// valor2=2;
+// total=--valor1;
+// alert (total);
+
+function soma(valor1,valor2){
+    return valor1+valor2;
+}
+function realParaDolar(real, cotacaoDolar){
+    return real*cotacaoDolar;
+}
+var valorReal=7.89;
+var cotacao=5.08;
+var total=realParaDolar(valorReal,cotacao);
+alert ("O valor em real é R$: "+valorReal+ " o valor em dólar U$ é: "+ total);

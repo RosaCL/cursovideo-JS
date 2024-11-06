@@ -34,6 +34,9 @@
     </p>
     <p id="texto"></p>
     <p>
+        
+    </p>
+    <div>
         Quando se coloca aspas duplas ou simples algum número considera-se texto, sem aspas é número.
         variaveis: var, let e const. Onde armazena informações.
         Declaração de variaveis-> var a,b,c;
@@ -46,7 +49,7 @@
         nomeCompleto=nome+ " "+sobrenome;
         document.getElementById("texto").innerHTML=nomeCompleto;
         Não é recomendavel contatenar string com number. O correto é fazer separado.
-
+    
         let tornar a variavel única, não pode ser redeclarada. 
         ex. let pessoa=maria
         let pessoa=Rosa
@@ -54,7 +57,7 @@
         
         const siginifca constante nunca pode mudar.
 
-    </p>
+    </div>
     <div>
         <h1>Operadores </h1>
         <h2><li>Aritméticos</li></h2>
@@ -86,6 +89,21 @@
         <p>|| siginifica ou</p>
         <p> ! siginifica negação</p>
 
+    </div>
+    <div>
+        <h1>Funções</h1>
+        <p>é como uma pequena "fábrica" onde você faz uma entrada e ele te dá uma saída.
+            Pode ser encarado como "mini-programa" projetados para fazer uma tarefa que vai contribuir para todo  código.
+            Um função no JS é executada quando "algo" a invoca (chama-a).
+            function nome da função (paramentros){
+                bloco de instruções
+            }
+            Ex: function soma(valor1,valor2){
+                return valor1+valor2;
+            }
+            document.getElementById("texto").innerHTML=soma(10,23); -> aqui se invoca a função
+            variavel dentro da função só funciona dentro dela, conhecida como variavel local
+        </p>
     </div>
 </body>
 <script src="./js/index.js"></script>
