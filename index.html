@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <title>Apredendo de novo JS</title>
 </head>
-<body>
+<body onresize="alert('redimensinou ai')">
     <h1>Olha eu aqui de novo apredendo JS, vou te dominar seu cão</h1>
     <p>Tipos de saída: no javascript: 
         <ul>
@@ -104,6 +104,50 @@
             document.getElementById("texto").innerHTML=soma(10,23); -> aqui se invoca a função
             variavel dentro da função só funciona dentro dela, conhecida como variavel local
         </p>
+    </div>
+    <div> <h1>Objetos</h1>
+        <p>Variáveis com muitos valores dentro.
+        Ex:const carro={marca:"ford", modelo:"ka", ano: 2015}
+        Os valores dentro de um objeto são chamados de propriedades.
+        Objetos também podem ser metódos que é uma função colocada dentro de uma propriedade.
+        ex: carro.partida(), carro.acelerar(), carro.freiar()
+    </p>
+
+    </div>
+    <div>
+        <h1>Eventos</h1>
+        <p>
+            São ações disparadas pela interação dos usuários na página, tornando assim as páginas interativas e dinâmicas. Ele chama a função selecionada.
+            Mais utilizados:
+            <li>onclick - disparado quando recebe um click</li>
+            <li>ondbclick - clique duplo</li>
+            <li>onmouseover - dispara quando o mouse está sobre</li>
+            <li>onmouseout - disparado quando o mousen é movido para fora do elemento</li>
+            <li>onmousemove - o mouse é movido no elemento</li>
+            <li>onmousedown - clique do botão foi pressionado</li>
+            <li>onmouseup - clique do botão é liberado</li>
+            <li>onfocus - disparadp quando elemento recebe o foco. válido para input</li>
+            <li>onchange - existe uma mudança no conteúdo. "ao mudar"</li>
+            <li>onblur - o elemento perde o foco</li>
+            <li>onkeydown - disparado quando uma tecla é pressionada</li>
+            <li>onkeypress - disparado quando uma tecla é pressionada solta</li>
+            <li>onkeyup - um tecla é solta sobre um elemento</li>
+            <li>onload - disparado quando a página terminou de ser carregada. Body</li>
+            <li>onresize - disparado quando há um redimencionamento da janela</li>
+        </p>
+    </div>
+    <div><button ondblclick="eventodbClick()">Clica aqui</button><br><br></div>
+    <div id="teste" onmouseover="viraVerde()" onmouseout="viraRosa()" onmousemove="adcionaTexto()" style=" margin: auto;width: 80%; height: 200px; background-color: blueviolet;"></div>
+    <div>
+        <input id="espaco" type="text" value="digite ai criatura" onfocus="limpa()" onkeypress="presionatecla()">
+    </div>
+    <div>
+        <select onchange="mudou()" id="itens">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+            <option value="4">Valor 4</option>
+        </select>
     </div>
 </body>
 <script src="./js/index.js"></script>

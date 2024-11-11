@@ -25,13 +25,55 @@
 // total=--valor1;
 // alert (total);
 
-function soma(valor1,valor2){
-    return valor1+valor2;
+// function soma(valor1,valor2){
+//     return valor1+valor2;
+// }
+// function realParaDolar(real, cotacaoDolar){
+//     return real*cotacaoDolar;
+// }
+// var valorReal=7.89;
+// var cotacao=5.08;
+// var total=realParaDolar(valorReal,cotacao);
+// alert ("O valor em real é R$: "+valorReal+ " o valor em dólar U$ é: "+ total);
+// const carro={
+//     marca:"ford", 
+//     modelo:"ka", 
+//     ano: 2015,
+//     placa:"ABC-1234",
+//     buzina: function(){alert('Biiiiiiiiiiiiiiiiii')},
+//     completo: function(){
+//         return "A marca é "+this.marca+" e o modeloe é: "+ this.modelo
+//     }
+// };
+// console.log(carro.completo());
+function eventoClick(){
+    // alert('Aciounou um evento click');
+    document.body.style.backgroundColor="white";
 }
-function realParaDolar(real, cotacaoDolar){
-    return real*cotacaoDolar;
+function eventodbClick(){
+    alert('envento de click duplo');
 }
-var valorReal=7.89;
-var cotacao=5.08;
-var total=realParaDolar(valorReal,cotacao);
-alert ("O valor em real é R$: "+valorReal+ " o valor em dólar U$ é: "+ total);
+function viraVerde(){
+    let div =document.getElementById("teste");
+    div.style.backgroundColor="green";
+}
+function viraRosa(){
+    let div =document.getElementById("teste");
+    div.style.backgroundColor="blueviolet";
+}
+// function adcionaTexto(){
+//     let p=document.getElementById("teste");
+//     p.append('O mouse moveu');
+
+// }
+function limpa(){
+    document.getElementById("espaco").value="";
+}
+
+function mudou(){
+    console.log('mudou')
+}
+function presionatecla(){
+    let input=document.getElementById("espaco").value;
+    console.log(input);
+}
