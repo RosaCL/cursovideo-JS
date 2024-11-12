@@ -46,34 +46,42 @@
 //     }
 // };
 // console.log(carro.completo());
-function eventoClick(){
-    // alert('Aciounou um evento click');
-    document.body.style.backgroundColor="white";
-}
-function eventodbClick(){
-    alert('envento de click duplo');
-}
-function viraVerde(){
-    let div =document.getElementById("teste");
-    div.style.backgroundColor="green";
-}
-function viraRosa(){
-    let div =document.getElementById("teste");
-    div.style.backgroundColor="blueviolet";
-}
-// function adcionaTexto(){
-//     let p=document.getElementById("teste");
-//     p.append('O mouse moveu');
-
+// function eventoClick(){
+//     // alert('Aciounou um evento click');
+//     document.body.style.backgroundColor="white";
 // }
-function limpa(){
-    document.getElementById("espaco").value="";
-}
+// function eventodbClick(){
+//     alert('envento de click duplo');
+// }
+// function viraVerde(){
+//     let div =document.getElementById("teste");
+//     div.style.backgroundColor="green";
+// }
+// function viraRosa(){
+//     let div =document.getElementById("teste");
+//     div.style.backgroundColor="blueviolet";
+// }
+// // function adcionaTexto(){
+// //     let p=document.getElementById("teste");
+// //     p.append('O mouse moveu');
 
-function mudou(){
-    console.log('mudou')
-}
-function presionatecla(){
-    let input=document.getElementById("espaco").value;
-    console.log(input);
-}
+// // }
+// function limpa(){
+//     document.getElementById("espaco").value="";
+// }
+
+// function mudou(){
+//     console.log('mudou')
+// }
+// function presionatecla(){
+//     let input=document.getElementById("espaco").value;
+//     console.log(input);
+// }
+
+// const lista = ["arroz", "feijão", "macarrão", "leite"];
+// let x=lista[3];
+// alert(x);
+
+const pessoa =["Rosa", "Chagas", 38, "estudante"];
+pessoa.push("brasileira") ;
+console.log(pessoa);

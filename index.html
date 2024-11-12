@@ -149,6 +149,40 @@
             <option value="4">Valor 4</option>
         </select>
     </div>
+    <div>
+        <h1>Arrays</h1>
+        <p>Usadas para armazenar vários valores em uma única variável, difere dos objetos que funcionam como propriedades, as arrays não possuem propriedades. O item dentro dele é encontrado pela posição. Array usa colchete, objeto é chaves. Array sempre começa com 0.
+        é possivel quebrar linha deixando mais facil de identificar os itens.
+        Pode se criar uma array vazia e inserir os dados depois, inclusive dizendo em que posição cada item deve ficar ou array preenche a medida que inserir novos dados .
+        outra forma é a seguinte. const lista = new Array("arroz", "feijão", "macarrão", "leite");
+
+            ex.: const lista = ["arroz", "feijão", "macarrão", "leite"];
+            Posição 0 vai conter "arroz"
+            Posição 3 vai conter "leite"
+
+            Alterar o valor de um item da array.
+            const lista = ["arroz", "feijão", "macarrão", "leite"];
+            lista[0] ="café";
+            alert(lista[0]);
+            ver a lista completa da array.
+            const lista = ["arroz", "feijão", "macarrão", "leite"];
+            lista[0] ="café";
+            console.log(lista);
+            Em uma  array pode conter outra array, função, objeto.
+            length diz quantos itens tem numa array Ex.: const lista = ["arroz", "feijão", "macarrão", "leite"];
+            alert(lista.length);
+            retornara valor 4
+            Caso não saiba quantos itens tem na array e queira o ultimo intem da lista. pode se utilizar 
+            alert(lista[lista.length -1]);
+            Acresencentar item na array utiliza o metodo push.
+            const pessoa =["Rosa", "Chagas", 38, "estudante"];
+            pessoa.push("brasileira") ;
+            console.log(pessoa);
+            ou pode se utilizar: pessoa[pessoa.length] = "solteira"
+            para saber se é uma array é so utilizar Array.isArray(pessoa)
+
+        </p>
+    </div>
 </body>
 <script src="./js/index.js"></script>
 </html>
