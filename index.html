@@ -180,6 +180,28 @@
             console.log(pessoa);
             ou pode se utilizar: pessoa[pessoa.length] = "solteira"
             para saber se é uma array é so utilizar Array.isArray(pessoa)
+            Para remover dados da matriz usa-se o metódo:
+            pessoa.pop(); remover ultimo item da matriz
+            pessoa.shift(); remover o primeiro item da matriz
+            delete.pessoa[0]; 
+            pessoa.unshift("Maria ") adciona item na primeira posição e altera o indice dos demais
+            concat junta duas matrizes, deve ser criada uma nova variavel. Ex.: const superLista=lista1.concat(lista2);
+            metodo slice é possivel fatiar uma matriz, podendo usar dois parâmetros de posição.
+            metodo sort deixa tudo em ordem alfabetica crescente
+            descrecente usa reverse.
+            já para botar em ordem crescente números utiliza-se sort e dentro uma função. Ex. numeros.sort(function(a.b){return b-a})
+            para pegar o maior numero da matriz cria-se uma função. ex.: function nomedafuncao (array){
+                return Math.max.apply(null,array)
+            }
+            pegar menor número utiliza o min
+            function nomedafuncao (array){
+                return Math.min.apply(null,array)
+            }
+            filtrar números cria-se uma função
+            ex.: const nomedaconstaante=numeros.filter(filtragem);
+            function filtragem (value, index,array){
+                return value>valor
+            }
 
         </p>
     </div>

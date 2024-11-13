@@ -82,6 +82,11 @@
 // let x=lista[3];
 // alert(x);
 
-const pessoa =["Rosa", "Chagas", 38, "estudante"];
-pessoa.push("brasileira") ;
-console.log(pessoa);
+const pessoa =["Rosa ", "Chagas ", 38, " estudante"];
+// pessoa.push(" brasileira") ; //adciona
+// document.getElementById("teste").innerHTML=pessoa.join("#")
+// pessoa.pop(); //remover ultimo item da matriz
+// pessoa.shift(); //remover o primeiro item da matriz
+pessoa.unshift("Maria ") //adciona item na primeira posição e altera o indice dos demais
+delete.pessoa[0]; // exclui item mis deixa matriz com vazio
+document.getElementById("teste").innerHTML=pessoa;
