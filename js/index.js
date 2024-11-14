@@ -82,11 +82,41 @@
 // let x=lista[3];
 // alert(x);
 
-const pessoa =["Rosa ", "Chagas ", 38, " estudante"];
-// pessoa.push(" brasileira") ; //adciona
-// document.getElementById("teste").innerHTML=pessoa.join("#")
-// pessoa.pop(); //remover ultimo item da matriz
-// pessoa.shift(); //remover o primeiro item da matriz
-pessoa.unshift("Maria ") //adciona item na primeira posição e altera o indice dos demais
-delete.pessoa[0]; // exclui item mis deixa matriz com vazio
-document.getElementById("teste").innerHTML=pessoa;
+// const pessoa =["Rosa ", "Chagas ", 38, " estudante"];
+// // pessoa.push(" brasileira") ; //adciona
+// // document.getElementById("teste").innerHTML=pessoa.join("#")
+// // pessoa.pop(); //remover ultimo item da matriz
+// // pessoa.shift(); //remover o primeiro item da matriz
+// pessoa.unshift("Maria ") //adciona item na primeira posição e altera o indice dos demais
+// delete.pessoa[0]; // exclui item mis deixa matriz com vazio
+// document.getElementById("teste").innerHTML=pessoa;
+
+// var luz="of";
+
+// if (luz=="on"){
+//     alert('Luz acesa')
+// }else{
+//     alert ('Luz apagada')
+// }
+
+function verificaCor(){
+    let cor = document.getElementById("cor").value;
+    switch(cor){
+        case "azul": 
+        document.body.style.backgroundColor="blue";
+            break;
+        case "vermelho":
+            document.body.style.backgroundColor="red";
+            break;
+        case "amarelo":
+            document.body.style.backgroundColor="yellow";
+            break;
+        case "verde":
+            document.body.style.backgroundColor="green";
+            break;
+        default:
+            document.getElementById("testou").innerHTML="Nenhuma cor dispinível" 
+
+    
+}
+}
