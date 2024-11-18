@@ -224,6 +224,18 @@
         <input type="text" id="cor">
         <button id="verifica" onclick="verificaCor()">Verifica</button>
     </div>
+    <div>
+        <h1>Laços de repetição - For</h1>
+        <p>é um jeito fácil e rapido de executar uma ação repetidas vezes.
+            ex.: <select name="" id="ano">
+                <option selected disabled>Selecione o ano</option>
+            </select>
+            var ano =new Date().getFullYear();
+            for(let i=ano; i>=1900;i--){
+                document.getElementById("ano").innerHTML+="<option value='"+i+"'>"+i+"</option>";
+            }
+        </p>
+    </div>
 </body>
 <script src="./js/index.js"></script>
 </html>
