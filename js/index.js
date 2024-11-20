@@ -120,7 +120,10 @@
     
 // }
 // }
-var ano =new Date().getFullYear();
-for(let i=ano; i>=1900;i--){
-    document.getElementById("ano").innerHTML+="<option value='"+i+"'>"+i+"</option>";
+// var ano =new Date().getFullYear();
+// for(let i=ano; i>=1900;i--){
+//     document.getElementById("ano").innerHTML+="<option value='"+i+"'>"+i+"</option>";
+// }
+function ativarContagem(){
+    setTimeout(function(){},5000);
 }
