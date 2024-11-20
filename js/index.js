@@ -124,6 +124,45 @@
 // for(let i=ano; i>=1900;i--){
 //     document.getElementById("ano").innerHTML+="<option value='"+i+"'>"+i+"</option>";
 // }
+// function ativarContagem(){
+//     document.getElementById('tempo').innerHTML= "Começou a contar!";
+//     setTimeout(function(){
+
+//         document.getElementById('tempo').innerHTML= "Executou o setTimeout";
+//         // document.body.style.backgroundColor="pink";
+//     },5000);
+// }
+// function pararContagem(){
+//     clearTimeout(tempo);
+//     document.getElementById('tempo').innerHTML= "Parou a contagem!";
+// }
+
+// function ativarContagem(){
+//     tempo=setInterval(function(){
+//         var cronometro = document.getElementById('tempo').innerHTML;
+//         var soma=parseInt(cronometro)+1;
+//         document.getElementById('tempo').innerHTML= soma;
+        
+//     }, 1000);
+// }
+// function pararContagem(){
+//     clearInterval(tempo);
+// }
+
 function ativarContagem(){
-    setTimeout(function(){},5000);
+    tempo=setInterval(function(){
+        var cronometro = document.getElementById('tempo').innerHTML;
+        var soma=parseInt(cronometro)-1;
+        if(soma===0){
+
+            document.getElementById('tempo').innerHTML= "Tempo esgotado";
+        }else{
+
+            document.getElementById('tempo').innerHTML= soma;
+            
+        }
+    }, 1000);
+}
+function pararContagem(){
+    clearInterval(tempo);
 }
