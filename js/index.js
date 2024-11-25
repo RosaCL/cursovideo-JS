@@ -149,20 +149,31 @@
 //     clearInterval(tempo);
 // }
 
-function ativarContagem(){
-    tempo=setInterval(function(){
-        var cronometro = document.getElementById('tempo').innerHTML;
-        var soma=parseInt(cronometro)-1;
-        if(soma===0){
+// function ativarContagem(){
+//     tempo=setInterval(function(){
+//         var cronometro = document.getElementById('tempo').innerHTML;
+//         var soma=parseInt(cronometro)-1;
+//         if(soma===0){
 
-            document.getElementById('tempo').innerHTML= "Tempo esgotado";
-        }else{
+//             document.getElementById('tempo').innerHTML= "Tempo esgotado";
+//         }else{
 
-            document.getElementById('tempo').innerHTML= soma;
+//             document.getElementById('tempo').innerHTML= soma;
             
-        }
-    }, 1000);
+//         }
+//     }, 1000);
+// }
+// function pararContagem(){
+//     clearInterval(tempo);
+// }
+class Carro{
+    constructor(valor1,valor2, valor3){
+        this.marca = valor1;
+        this.modelo=valor2;
+        this.ano=valor3;
+
+    }
 }
-function pararContagem(){
-    clearInterval(tempo);
-}
+
+const uno=new Carro("Fiat", "Uno", 2001);
+console.log(uno.ano);
