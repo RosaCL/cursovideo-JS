@@ -262,7 +262,25 @@
     </div>
     <div>
         <h1>Manipular datas em js</h1>
-        let data=newda
+        <p>
+            let data=new Date();
+            vai aparecer o dia da semana, mes e data
+            let ano=data.getFullYear(); 
+            vai aparecer o ano corrente
+            let mes= data.getMonth();
+            vai parecer o mes corrente, só que para o js o mes de janeiro é 0
+            let diaSemana=data.getDay();
+            no js o dia da semana vai de 0 a 6
+            tanto no getmonth como no getday para apresentar como conhecemos é necessário criar uma array 
+            ex.: const diasdaSemana =["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+            let diaSemanaEscrito = diasdaSemana[data.getDay()];
+            
+            let hora=data.getHours();
+            vai apresentar as horas considerando que se inicia as 0 até 23
+            let dataBR=data.toLocaleDateString('pt-BR')
+            apresenta data no padrão brasil
+
+        </p>
     </div>
 </body>
 <script src="./js/index.js"></script>

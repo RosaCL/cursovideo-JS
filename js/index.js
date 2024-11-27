@@ -179,4 +179,14 @@
 // console.log(uno.ano);
 
 let data=new Date();
-console.log(data);
+let ano=data.getFullYear();
+let mes= data.getMonth();
+let diaSemana=data.getDay();
+const diasdaSemana =["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+let diaSemanaEscrito = diasdaSemana[data.getDay()];
+let hora=data.getHours();
+let minutos=data.getMinutes();
+let segundos=data.getSeconds();
+let milisegundos=data.getMilliseconds();
+let dataBR=data.toLocaleDateString('pt-BR')
+console.log(dataBR);
