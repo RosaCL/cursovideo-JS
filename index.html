@@ -282,6 +282,27 @@
 
         </p>
     </div>
+    <div>
+        <h1>JSON</h1>
+        <p>significa notação de objeto jS. É uma forma de converter um objetro em texto e um texto em um objeto.
+            usado principalmente para transmitir dados entre sistemas de forma simples.
+            metódos do json no js:
+            JSON.parse() - converte texto no padrão json em objetos
+            JSON.stringify() - converte obejtos em texto padrão json
+
+            const carro = {
+                marca: "fiat",
+                modelo: "uno",
+                ano: 2001
+            }
+            
+            let texto = JSON.stringify(carro); - converteu texto json
+            document.getElementById('testou').innerHTML=texto; - colocou texto no html
+            let obj=JSON.parse(texto); - converteu texto em objeto
+            console.log(obj.modelo); - pegamos um valor deste objeto
+            
+        </p>
+    </div>
 </body>
 <script src="./js/index.js"></script>
 </html>

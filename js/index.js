@@ -178,15 +178,27 @@
 // const uno=new Carro("Fiat", "Uno", 2001);
 // console.log(uno.ano);
 
-let data=new Date();
-let ano=data.getFullYear();
-let mes= data.getMonth();
-let diaSemana=data.getDay();
-const diasdaSemana =["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
-let diaSemanaEscrito = diasdaSemana[data.getDay()];
-let hora=data.getHours();
-let minutos=data.getMinutes();
-let segundos=data.getSeconds();
-let milisegundos=data.getMilliseconds();
-let dataBR=data.toLocaleDateString('pt-BR')
-console.log(dataBR);
+// let data=new Date();
+// let ano=data.getFullYear();
+// let mes= data.getMonth();
+// let diaSemana=data.getDay();
+// const diasdaSemana =["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+// let diaSemanaEscrito = diasdaSemana[data.getDay()];
+// let hora=data.getHours();
+// let minutos=data.getMinutes();
+// let segundos=data.getSeconds();
+// let milisegundos=data.getMilliseconds();
+// let dataBR=data.toLocaleDateString('pt-BR')
+// console.log(dataBR);
+
+//objeto carro
+const carro = {
+    marca: "fiat",
+    modelo: "uno",
+    ano: 2001
+}
+
+let texto = JSON.stringify(carro);
+document.getElementById('testou').innerHTML=texto;
+let obj=JSON.parse(texto)
+console.log(obj.modelo);
