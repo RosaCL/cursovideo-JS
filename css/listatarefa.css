@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: "Days One", sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #413d3d4d;
+}
+header{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+#tarefa{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto;
+
+}
+input{
+    height: 120px;
+    font-size: 80%;
+    padding-left: 10%;
+}
+.add{
+    width: 20%;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+
+}
+.lista{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px #ccc;
+    margin-bottom: 2%;
+
+}
+.icone{
+    flex: 20%;
+    text-align: center;
+    font-size: 2rem;
+}
+.nome{
+    flex: 575%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.botao{
+    flex: 25%;
+}
+.delete{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+}
