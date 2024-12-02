@@ -7,22 +7,23 @@ body{
     padding: 0px;
     background: #413d3d4d;
 }
-header{
+h1{
     text-align: center;
     font-size: 3rem;
-    
 }
-#tarefa{
+header{
     text-align: center;
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     width: 90%;
-    margin: auto;
-
+    margin: auto auto;
 }
+
 input{
     height: 120px;
-    font-size: 80%;
+    font-size:2rem;
+    width: 80%;
     padding-left: 10%;
 }
 .add{
@@ -44,7 +45,7 @@ main{
     padding-top: 40px;
 
 }
-.lista{
+.item{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -54,6 +55,7 @@ main{
     width: 100%;
     box-shadow: 0 0 20px #ccc;
     margin-bottom: 2%;
+    cursor: pointer;
 
 }
 .icone{
@@ -61,8 +63,15 @@ main{
     text-align: center;
     font-size: 2rem;
 }
+.clicado{
+    background: #d4f6d9;
+}
+.clicado .nome{
+    text-decoration: line-through;
+    color: gray;
+}
 .nome{
-    flex: 575%;
+    flex: 55%;
     font-size: 20px;
     font-weight: bold;
 }
@@ -76,4 +85,7 @@ main{
     padding: 10px;
     height: 80px;
     width: 100%;
+}
+.fa-circle-check{
+    color: green;
 }

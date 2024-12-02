@@ -11,26 +11,19 @@
     <title>Lista de Tarefas</title>
 </head>
 <body>
-    <header>Lista de Tarefas</header>
-    <main>
+    <h1>Lista de Tarefas</h1>
         <section id="tarefa">
-            <input id="digite" type="text" placeholder="Digite sua tarefa">
-            <button class="add">Adicionar</button>
+            <header>
+                <input id="digite" type="text" placeholder="Digite sua tarefa">
+                <button class="add" id="btn-add" onclick="addTarefa()">Adicionar</button>
+            </header>
+            <main id="arealista">              
+                
+                
+            </main>
         </section>
-        <div class="lista">
-            
-            <div class="icone">
-                <i class="fa-regular fa-circle"></i>
-            </div>
-            <div class="nome"></div>
-            Teste de tarefas
-            <div class="botao">
-                <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
-                    
-            </div>
 
-        </div>
-    </main>
+    
     
 </body>
 <script src="./js/listatarefa.js"></script>
